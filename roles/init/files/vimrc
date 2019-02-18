@@ -1,0 +1,5 @@
+syntax on
+highlight Comment ctermfg=darkgreen
+set tabstop=4
+set shiftwidth=4
+set expandtab

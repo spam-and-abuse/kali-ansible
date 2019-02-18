@@ -1,0 +1,21 @@
+---
+
+- name: Update repositories cache
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600
+
+- name: Install base packages
+  apt: name={{item}} state=present
+  with_items:
+    - bash-completion
+    - spice-vdagent
+    - terminator
+    - cherrytree
+    - htop
+
+- name: Copy files
+  copy: src={{ item.src }} dest={{ item.dest }}
+  with_items:
+    - { src: 'auto_resize.sh', dest: '/root/auto_resize.sh' }
+    - { src: 'vimrc', dest: '/root/.vimrc' }

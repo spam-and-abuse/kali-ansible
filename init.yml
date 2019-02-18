@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  pre_tasks:
+   - include: tasks/load-vars.yml
+  gather_facts: no
+  roles:
+    - role: init
