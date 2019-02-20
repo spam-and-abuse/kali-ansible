@@ -16,6 +16,7 @@
     - gobuster
     - gedit
     - ncat
+    - xfce4-screenshooter
 
 - name: Copy files
   copy: src={{ item.src }} dest={{ item.dest }}
