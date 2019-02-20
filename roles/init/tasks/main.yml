@@ -22,3 +22,4 @@
   with_items:
     - { src: 'auto_resize.sh', dest: '/root/auto_resize.sh' }
     - { src: 'vimrc', dest: '/root/.vimrc' }
+    - { sec: 'auto_resize.desktop', dest: '/root/.config/autostart'}
