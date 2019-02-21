@@ -24,3 +24,7 @@
     - { src: 'auto_resize.sh', dest: '/root/auto_resize.sh' }
     - { src: 'vimrc', dest: '/root/.vimrc' }
     - { src: 'auto_resize.desktop', dest: '/root/.config/autostart'}
+
+- name: Install tools
+  pip:
+    name: ldapdomaindump
