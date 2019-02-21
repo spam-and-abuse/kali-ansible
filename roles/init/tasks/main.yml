@@ -27,4 +27,6 @@
 
 - name: Install tools
   pip:
-    name: ldapdomaindump
+    name: 
+      - ldapdomaindump
+      - pylzma
