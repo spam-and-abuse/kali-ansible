@@ -18,6 +18,7 @@
     - ncat
     - xfce4-screenshooter
     - libcompress-raw-lzma-perl
+    - engrampa
 
 - name: Copy files
   copy: src={{ item.src }} dest={{ item.dest }}
