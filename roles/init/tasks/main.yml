@@ -19,6 +19,8 @@
     - xfce4-screenshooter
     - libcompress-raw-lzma-perl
     - engrampa
+    - gvfs-backends
+    - gvfs-bin
 
 - name: Copy files
   copy: src={{ item.src }} dest={{ item.dest }}
