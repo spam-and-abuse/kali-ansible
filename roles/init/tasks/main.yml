@@ -21,6 +21,8 @@
     - engrampa
     - gvfs-backends
     - gvfs-bin
+    - ipython
+    - ipython3
 
 - name: Copy files
   copy: src={{ item.src }} dest={{ item.dest }}
