@@ -28,7 +28,8 @@
     - filezilla
     - thunderbird
     - nfs-common
-    - thunar-archive-plugin 
+    - thunar-archive-plugin
+    - ghex
 
 - name: Copy files
   copy: src={{ item.src }} dest={{ item.dest }}
