@@ -30,6 +30,7 @@
     - nfs-common
     - thunar-archive-plugin
     - ghex
+    - steghide
 
 - name: Copy files
   copy: src={{ item.src }} dest={{ item.dest }}
