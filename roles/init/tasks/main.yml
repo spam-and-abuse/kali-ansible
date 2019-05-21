@@ -44,3 +44,4 @@
     name: 
       - ldapdomaindump
       - pylzma
+      - pwntools
