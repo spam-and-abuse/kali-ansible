@@ -31,6 +31,7 @@
     - thunar-archive-plugin
     - ghex
     - steghide
+    - gdbserver
 
 - name: Copy files
   copy: src={{ item.src }} dest={{ item.dest }}
