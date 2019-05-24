@@ -47,3 +47,4 @@
       - pylzma
       - pwntools
       - pwn
+      - stegcracker
